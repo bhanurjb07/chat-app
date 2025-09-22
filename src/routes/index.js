@@ -15,7 +15,6 @@ const Loadable = (Component) => (props) => {
     </Suspense>
   );
 };
-
 export default function Router() {
   return useRoutes([
     {
